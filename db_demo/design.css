@@ -1,0 +1,80 @@
+body {
+    font-family: Arial;
+    background-color: rgb(50, 50, 50);
+}
+
+table.inputtable {
+    height: 100%;
+    font-size: 60px;
+    color: crimson;
+    width: 25vw;
+    vertical-align: top;
+}
+
+textarea, input {
+    max-width: 25vw;
+    font-size: 40px;
+    color: aqua;
+    background-color: crimson;
+    font-family: Arial;
+}
+
+li {
+    marker: none;
+}
+
+.header {
+    font-size: 60pt;
+    color: aqua;
+    font-family: Arial;
+    text-align: center;
+}
+
+.entry {
+    color: black;
+    font-family: Verdana;
+    font-size: 30pt;
+    background-color: crimson;
+    padding: 10pt;
+    border-color: aqua;
+    border-radius: 10pt;
+    border-width: 3pt;
+    border-style: solid;
+}
+
+li {
+    padding: 10px;
+    marker: none;
+    list-style: none;
+}
+
+output {
+    width: 50vw;
+    color: coral;
+    font-size: 80px;
+}
+
+#inputsection {
+    padding: 10pt;
+    align-content: start;
+    background-color: rgba(80, 80, 80, 1);
+}
+
+#inputsection table {
+    float: top;
+    align-content: start;
+}
+
+#output {
+    background-color: rgba(100, 100, 100, 0.5);
+    min-width: 50vw;
+    min-height: 98vh;
+}
+
+button {
+    font-size: 30px;
+    background-color: crimson;
+    color: aqua;
+    border-style: solid;
+    border-color: aqua;
+}
