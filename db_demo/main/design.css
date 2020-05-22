@@ -24,10 +24,11 @@ li {
 }
 
 .header {
+    min-width: 800px;
     font-size: 60pt;
     color: aqua;
     font-family: Arial;
-    text-align: center;
+    text-align: left;
 }
 
 .entry {
@@ -77,4 +78,21 @@ button {
     color: aqua;
     border-style: solid;
     border-color: aqua;
+}
+
+.deletebutton {
+    margin-left: 50%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.filterColor {
+    filter: invert(88%) sepia(21%) saturate(3415%) hue-rotate(120deg) brightness(103%) contrast(108%);
+}
+
+.alignright{
+    align: right;
+    float: right;
+    align-content: end;
+    align-items: end;
 }
